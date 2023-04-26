@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: got;
+    src: url('../src/assets/fonts/Godofthunder-0WO1P.ttf');
+}
+
+@font-face {
+    font-family: greconian;
+    src: url('../src/assets/fonts/Greconian.ttf');
+}
+
+.font-got{
+    font-family: 'got';
+}
+
+.font-greconian{
+    font-family: 'greconian';
+}
+
+.text-gradient {
+    background: -webkit-linear-gradient(65deg, #03eacf, #00aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-gradient {
+    background: -webkit-linear-gradient(65deg, #1105c5, #f70299);
+}
+
+.bd-gradient-r {
+    border-bottom: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #03eacf, #00aaff) 1;
+}
