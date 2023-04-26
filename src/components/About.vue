@@ -40,7 +40,7 @@ onUnmounted(() => animations.forEach(animation => animation.unmount()))
                         </p>
                     </div>
                     <div ref="box2" class="w-[30%] shadow-md">
-                        <img class="rounded-t-xl" :src="zeus" alt="">
+                        <img class="rounded-t-xl w-full" :src="zeus" alt="">
                         <p class="p-5 bg-slate-100 rounded-b-xl">
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus obcaecati omnis tempora
                             fugiat
